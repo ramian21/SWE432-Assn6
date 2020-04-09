@@ -26,7 +26,8 @@ public class HelloServlet extends HttpServlet {
         out.println("    <script type=\"text/javascript\" src=\"SWE432-Assn5-script.js\"></script>");
         out.println("</head>");
         out.println("<body>");
-        out.println("    <form method=\"POST\" action=\"https://cs.gmu.edu:8443/offutt/servlet/formHandler\">");
+        // out.println("    <form method=\"POST\" action=\"https://cs.gmu.edu:8443/offutt/servlet/formHandler\">");
+        out.println("    <form method=\"POST\" action=\"https://swe432-assnsix.herokuapp.com/hello\">");
         out.println("        <h1 class=\"title-text\">Innovation Hall Water Fountains</h1>");
         out.println("        <h2>Floor</h2>");
         out.println("        <span>Which floor's fountains are you rating?</span></br>");
